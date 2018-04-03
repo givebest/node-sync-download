@@ -8,14 +8,17 @@
 ###  了解 JavaScript 中同步执行（ Await、Async、Promise）
 
 ##### Await
+> https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/await
 
 Await 会暂停当前 `async function` 的执行，等待 Promise 处理完成。
 
 ##### Async 
+> https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function
 
 Asyn 函数中若有 await 表达式，这会使 async 函数暂停执行，等待表达式中的 Promise 解析完成后继续执行 async 函数并返回 resolve  结果。
 
 ##### Promise
+> https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
 解决回调地狱问题，可以像写同步代码一样写异步操作。
 
