@@ -69,7 +69,7 @@ function parseHtml (html) {
  * @return {[type]}     [description]
  */
 // @see https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function
-async function getIma、ge (opts) {
+async function getImage (opts) {
   if (opts === 'error') {
     return 'error'
   }
